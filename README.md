@@ -17,15 +17,16 @@ This project is a **Face Recognition Attendance System** built using **Streamlit
 ## Installation and Requirements
 1. Clone the repository.
 2. Install the required Python packages:
-   pip install streamlit opencv-python numpy face-recognition pandas
-3. Place your images (labeled with student names) in the `images/` directory.
-4. Create a `student_metadata.json` file with student information, where the keys are the image filenames and values are student details in the following format:
-   {
+   
+   ```pip install streamlit opencv-python numpy face-recognition pandas```
+4. Place your images (labeled with student names) in the `images/` directory.
+5. Create a `student_metadata.json` file with student information, where the keys are the image filenames and values are student details in the following format:
+   ```{
        "student_image.jpg": {
            "name": "John Doe",
            "id": "12345"
        }
-   }
+   }```
 
 ## Running the Application
 Run the following command to start the Streamlit app:
