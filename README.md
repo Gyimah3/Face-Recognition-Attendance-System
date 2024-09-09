@@ -1,8 +1,6 @@
 # Face-Recognition-Attendance-System
 A computer vission system to mark student attendance with name and Index number through a Recognition System
 
-# Face Recognition Attendance System
-
 ## Overview
 This project is a **Face Recognition Attendance System** built using **Streamlit**. The system allows the detection and recognition of students' faces in real time through a camera, captures their attendance, and stores the results in an Excel sheet. The system compares faces detected from the camera input against a pre-loaded dataset of known faces and generates an attendance report for the course.
 
